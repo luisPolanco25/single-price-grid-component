@@ -142,3 +142,41 @@ body {
     line-height: 1.4;
     font-weight: 400;
 }
+
+@media (max-width: 640px) {
+    #card {
+        height: 400px;
+        width: 320px;
+        margin-left: -160px;
+        top: 0;
+        margin-top: 1.4rem;
+    }
+
+    #primary-content h1 {
+        font-size: 1.2rem;
+    }
+
+    #primary-content h2 {
+        font-size: 1rem;
+    }
+
+    #primary-content p {
+        font-size: 0.84rem;
+        width: 100%;
+        line-height: 1.72;
+        margin-bottom: -0.4rem;
+    }
+
+    #information {
+        flex-direction: column;
+    }
+    
+    #subscription {
+        border-radius: 0;
+    }
+    
+    #why-us {
+        border-radius: 0 0 7px 7px;
+        margin-bottom: 1.4rem;
+    }
+}
