@@ -180,3 +180,25 @@ body {
         margin-bottom: 1.4rem;
     }
 }
+
+@media (max-width: 320px) {
+    
+    #card {
+        width: 100%;
+        left: 0;
+        position: static;
+        margin-left: 0;
+        height: 100vh;
+        margin-top: 0;
+    }
+
+    #primary-content {
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    #why-us {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+}
